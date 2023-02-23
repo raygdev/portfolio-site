@@ -48,6 +48,11 @@ body {
     font-family: "Alegreya sans";
 }
 
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
 /* Header Styles*/
 
 .header {
@@ -203,7 +208,8 @@ body {
     margin-bottom: 5em;
 }
 
-.about-description {
+.about-description, 
+.project-description {
     font-size: clamp(1rem, 10vw, 1.2rem);
 }
 
@@ -221,6 +227,15 @@ body {
 
 .projects-title {
     color: inherit;
+}
+
+.project-title {
+    font-size: clamp(1.5rem, 10vw, 2.25rem)
+}
+
+.card {
+    max-width: 504px;
+    margin: 0 auto;
 }
 
 
