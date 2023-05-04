@@ -69,7 +69,7 @@ iframe {
 .wrapper {
     display: flex;
     justify-content: space-between;
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
 .header-logo {
@@ -215,7 +215,6 @@ iframe {
 
 .content-column {
     max-width: 500px;
-    padding: 1em;
     margin: 0 auto;
 }
 
